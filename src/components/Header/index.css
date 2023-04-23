@@ -1,0 +1,10 @@
+.header {
+    @apply bg-midnightblue flex flex-col justify-center pl-5;
+}
+
+.mainText {
+    @apply text-4xl font-bold text-backgroundApple pt-2;
+}
+.myName {
+    @apply text-xs pb-2 text-white;
+}

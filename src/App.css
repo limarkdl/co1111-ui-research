@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    @apply flex flex-col min-h-screen bg-backgroundApple;
+}
+
+.mainContentWrapper {
+    @apply flex-1 max-w-5xl mx-auto;
+}

@@ -1,0 +1,7 @@
+.introContainer {
+    @apply gap-5 p-3;
+}
+
+.container {
+    @apply p-1 ;
+}

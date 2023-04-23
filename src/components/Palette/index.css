@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paletteContainer {
+    @apply flex flex-row;
+}
+
+.paletteColor {
+    @apply w-3/12 font-bold text-white text-xs text-center;
+}
