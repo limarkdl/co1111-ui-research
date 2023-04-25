@@ -1,4 +1,4 @@
-export interface Question {
+interface Question {
     id: number;
     questionText: string;
     options: string[];
@@ -7,6 +7,7 @@ export interface Question {
 
 export interface Quiz {
     id: number;
+    numOfQ: number,
     title: string;
     questions: Question[];
 }

@@ -1,5 +1,5 @@
 .header {
-    @apply bg-midnightblue flex flex-col justify-center pl-5;
+    @apply bg-midnightblue flex flex-row items-center gap-5 pl-5;
 }
 
 .mainText {
@@ -7,4 +7,8 @@
 }
 .myName {
     @apply text-xs pb-2 text-white;
+}
+
+.navbar {
+    @apply text-white flex flex-row gap-5;
 }

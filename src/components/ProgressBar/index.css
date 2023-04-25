@@ -1,0 +1,13 @@
+.background {
+    @apply w-full bg-gray-500 rounded-2xl;
+}
+
+.progressLine {
+    @apply flex items-center justify-center h-3 
+    bg-green-500 rounded-2xl transition-all 
+    duration-200;
+}
+
+.progressPercent {
+    @apply font-bold text-center font-bold text-gray-600;
+}

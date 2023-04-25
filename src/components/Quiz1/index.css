@@ -1,0 +1,12 @@
+.mainContentWrapper {
+    @apply  max-w-5xl mx-auto w-full;
+}
+
+.quizContainer {
+    @apply sm:w-1/2 bg-babyBlue pb-[50px] pt-[50px] flex items-center 
+    justify-center rounded-2xl mx-auto;
+}
+
+.anwserVariant {
+    @apply flex gap-3;
+}
