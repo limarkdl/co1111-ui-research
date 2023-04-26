@@ -1,5 +1,5 @@
 .header {
-    @apply bg-midnightblue flex flex-row items-center gap-5 pl-5;
+    @apply bg-midnightblue flex flex-row justify-between px-5 items-center gap-5 pl-5;
 }
 
 .mainText {
@@ -10,5 +10,5 @@
 }
 
 .navbar {
-    @apply text-white flex flex-row gap-5;
+    @apply text-white flex flex-row gap-2 items-center;
 }

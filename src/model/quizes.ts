@@ -8,145 +8,155 @@ export const myQuiz: Quiz = {
     questions: [
         { 
             id: 1,
-            questionText: "What gas is the main?",
+            questionText: "Which gas is the main in our atmosphere?",
             options: ["Oxygen","Nitrogen","Argon", "Carbon dioxide"],
-            correctAnswer: "A"
+            correctAnswer: "B"
         },
         { 
             id: 2,
-            questionText: "What is your university?",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: `Which artist painted "The Last Supper"?`,
+            options: ["Michelangelo","Leonardo da Vinci","Rafael","Pablo Picasso"],
+            correctAnswer: "B"
         },
         { 
             id: 3,
-            questionText: "What is your university?",
-            options: ["UCLan","AUCY","Something else"],
+            questionText: "In what year was the USSR dissolved?",
+            options: ["1989","1990","1991","1992"],
             correctAnswer: "A"
         },
         { 
             id: 4,
-            questionText: "What is your university?",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: `What element has the chemical symbol "Au"?`,
+            options: ["Silver","Aluminum","Gold","Mercury"],
+            correctAnswer: "C"
         },
         { 
             id: 5,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: "What novel did George Orwell write?",
+            options: ["Catch-22","1984","At the bottom","Animal Farm"],
+            correctAnswer: "B"
         },
         { 
             id: 6,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: "What country is Dublin in?",
+            options: ["UK","Scotland","Ireland","Pell"],
+            correctAnswer: "C"
         },
         { 
             id: 7,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: "How many satellites does the planet Uranus have?",
+            options: ["13","27","53","79"],
+            correctAnswer: "B"
         },
         { 
             id: 8,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: "What measurement is used to measure resistance?",
+            options: ["Volt","Watt","Ampere","Ohm"],
+            correctAnswer: "D"
         },
         { 
             id: 9,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
+            questionText: "What is the natural natural symbol of Australia?",
+            options: ["Kangaroo","Koala","Emu","Wombat"],
             correctAnswer: "A"
         },
         { 
             id: 10,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: "What year was Facebook founded?",
+            options: ["2001","2003","2004","2006"],
+            correctAnswer: "C"
         },
         { 
             id: 11,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
-            correctAnswer: "A"
+            questionText: "How tall is Empire State building?",
+            options: ["254m","381m","415m","154m"],
+            correctAnswer: "B"
         },
         { 
             id: 12,
-            questionText: "What is your university",
-            options: ["UCLan","AUCY","Something else"],
+            questionText: "Who discovered that the earth revolves around the sun?",
+            options: ["Nicolaus Copernicus","Thomas Munzer","Leonardo da Vinci","Galileo Galilei"],
             correctAnswer: "A"
         }
     ]
 }
 
-// What gas is a component of the Earth?
-// A. Oxygen
-// B. nitrogen
-// S. Argon
-// D. Carbon dioxide
-// (Correct answer: B)
-
-// Which artist painted "The Last Supper"?
-// A. Michelangelo
-// B. Leonardo da Vinci
-// C. Rafael
-// D. Pablo Picasso
-// (Correct answer: B)
-
-// In what year was the USSR dissolved?
-// A. 1989
-// B. 1990
-// Since 1991
-// D. 1992
-// (Correct answer: C)
-
-// What element has the chemical symbol "Au"?
-// A. Argentum (silver)
-// B. Aluminum
-// C. Aura (gold)
-// D. Mercury
-// (Correct answer: C)
-
-// What novel did Or Georgewell write?
-// A. Catch-22
-// B. 1984
-// C. At the bottom
-// D. Animal Farm
-// (Correct answer: B)
-
-// What country is Dublin in?
-// A. UK
-// B. Scotland
-// C. Ireland
-// D. Pell
-// (Correct answer: C)
-
-// How many satellites does the planet Uranus have?
-// A. 13
-// B. 27
-// S. 53
-// D. 79
-// (Correct answer: B)
-
-// What measurement is used to measure resistance?
-// A. Volt
-// B. Watt
-// K. Ampère
-// House
-// (Correct answer: D)
-
-// What is the natural natural symbol of Australia?
-// A. Kangaroo
-// B. koala
-// K. Emu
-// D. Wombat
-// (Correct answer: A)
-
-// What year was Facebook founded?
-// A. 2001
-// B. 2003
-// Since 2004
-// D. 2006
-// (Correct answer: C)
+export const myQuiz2: Quiz = {
+    id: 3,
+    numOfQ: 12,
+    title: "Quiz №2",
+    questions: [
+    {
+    id: 1,
+    questionText: "What is the largest ocean on Earth?",
+    options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    correctAnswer: "D"
+    },
+    {
+    id: 2,
+    questionText: `Who wrote the play "Romeo and Juliet"?`,
+    options: ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Donne"],
+    correctAnswer: "A"
+    },
+    {
+    id: 3,
+    questionText: "In what year did the Berlin Wall fall?",
+    options: ["1987", "1988", "1989", "1990"],
+    correctAnswer: "C"
+    },
+    {
+    id: 4,
+    questionText: `What element has the chemical symbol "Hg"?`,
+    options: ["Hydrogen", "Helium", "Mercury", "Gallium"],
+    correctAnswer: "C"
+    },
+    {
+    id: 5,
+    questionText: "What novel did Aldous Huxley write?",
+    options: ["Fahrenheit 451", "Brave New World", "Catch-22", "The Road"],
+    correctAnswer: "B"
+    },
+    {
+    id: 6,
+    questionText: "What country is Stockholm in?",
+    options: ["Norway", "Denmark", "Finland", "Sweden"],
+    correctAnswer: "D"
+    },
+    {
+    id: 7,
+    questionText: "How many satellites does the planet Saturn have?",
+    options: ["82", "62", "53", "24"],
+    correctAnswer: "A"
+    },
+    {
+    id: 8,
+    questionText: "What measurement is used to measure electric current?",
+    options: ["Volt", "Watt", "Ampere", "Ohm"],
+    correctAnswer: "C"
+    },
+    {
+    id: 9,
+    questionText: "What is the national bird of the United States?",
+    options: ["Bald Eagle", "American Robin", "Red-tailed Hawk", "Northern Cardinal"],
+    correctAnswer: "A"
+    },
+    {
+    id: 10,
+    questionText: "What year was Twitter founded?",
+    options: ["2004", "2005", "2006", "2007"],
+    correctAnswer: "C"
+    },
+    {
+    id: 11,
+    questionText: "How tall is the Eiffel Tower?",
+    options: ["301m", "324m", "342m", "280m"],
+    correctAnswer: "B"
+    },
+    {
+    id: 12,
+    questionText: "Who developed the theory of general relativity?",
+    options: ["Isaac Newton", "Galileo Galilei", "Niels Bohr", "Albert Einstein"],
+    correctAnswer: "D"
+    }
+    ]
+}

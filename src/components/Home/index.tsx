@@ -12,7 +12,7 @@ const Home: React.FC = () => {
             <br/>
             <Link to="/quiz2"><button className="bt_startQuiz">START QUIZ №2</button></Link>
             <br/><br/>
-            <Link to="/quiz2"><button className="bt_startQuiz Questionnaire">START QUESTIONNAIRE</button></Link>
+            <Link to="/questionnaire"><button className="bt_startQuiz Questionnaire">START QUESTIONNAIRE</button></Link>
             </div>
             
         </div>

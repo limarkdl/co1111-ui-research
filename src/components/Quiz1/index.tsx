@@ -33,7 +33,7 @@ const Quiz1 = () => {
                     <ProgressBar totalQ={12} currentQ={count}/>
                     <br></br>
                    </div>
-                    <label className="font-bold text-xl">{myQuiz.questions[count].questionText}</label>
+                    <label className="font-bold text-xl w-52">{myQuiz.questions[count].questionText}</label>
                     <div className='flex flex-col gap-4 items-start'>
                     <div className='anwserVariant'><input type="radio" className="p-2 rounded-md"/>{myQuiz.questions[count].options[0]}
                     </div>
@@ -42,8 +42,8 @@ const Quiz1 = () => {
                     <div className='anwserVariant'><input type="radio" className="p-2 rounded-md"/>{myQuiz.questions[count].options[3]}</div>
                     </div>
                     
-                    <div className="flex justify-between gap-24">
-                        <button className="bg-gray-400 p-3 disabled rounded-md text-sm" onClick={prevQ}>Previous</button>
+                    <div className="flex flex-row-reverse items-end">
+                        {/* <button className="bg-gray-400 p-3 disabled rounded-md text-sm" onClick={prevQ}>Previous</button> */}
                         <button className="bg-green-500 p-3 rounded-md text-sm" onClick={nextQ}>Next</button>
                         </div>
                 </form>
