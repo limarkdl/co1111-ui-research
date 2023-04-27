@@ -2,7 +2,7 @@ interface Question {
     id: number;
     questionText: string;
     options: string[];
-    correctAnswer: string;
+    correctAnswer: number;
 }
 
 export interface Quiz {
