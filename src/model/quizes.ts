@@ -1,7 +1,7 @@
 import { Quiz } from "."
 
 
-export const myQuiz: Quiz = {
+export const myQuiz1: Quiz = {
     id: 1,
     numOfQ: 12,
     title: "Quiz №1",

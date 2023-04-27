@@ -10,10 +10,8 @@ const Header: React.FC = () => {
             <div className='mainText'>UI RESEARCH</div> 
                 <p className='myName'>Ivan Kostin <span className='p-2 text-gray-400'>ID:21078541</span></p>
             </div>
-             <div className="navbar"><Link to="/">{<img src={HomeIcon} className='w-5'></img>}</Link>
-            <Link to="/quiz1">Q1</Link>
-            <Link to="/quiz2">Q2</Link> 
-            <Link to="/questionnaire">QF</Link>
+             <div className="navbar"><Link to="/">{<img src={HomeIcon} className='w-7' alt='Home'></img>}</Link>
+ 
             </div> 
         </div>
     );

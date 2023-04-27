@@ -13,30 +13,10 @@ import Questionnaire from './components/Questionnaire';
 
   
 const App: React.FC = () => {
-  const [country, setCountry] = useState<string>('Hello');
-  // fetch('https://api.ipify.org?format=json')
-  // .then(response => response.json())
-  // .then(data => {
-  //   const ipAddress = data.ip;
-  //   console.log('User IP Address:', ipAddress);
-  //   fetch('https://geo.ipify.org/api/v2/country?apiKey=at_1ENkQvr6xXRNyuJJX4EXNLef6L1Vf&ipAddress=' + ipAddress)
-  // .then(response => response.json())
-  // .then(data => {
-  //   const ipAddressLocation = data.location;
-  //   console.log('Location: ', ipAddressLocation);
-  //   setCountry(country + ipAddressLocation);
-  // })
-  // .catch(error => {
-  //   console.error('Error fetching IP:', error);
-  // });
-  // })
-  // .catch(error => {
-  //   console.error('Error fetching IP:', error);
-  // });
+  
 
   return (
     <div className='wrapper'>
-      <p>{country}</p>
         <BrowserRouter>
             <Header />
             
