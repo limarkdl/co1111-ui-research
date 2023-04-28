@@ -42,107 +42,111 @@ const Questionnaire: React.FC = () => {
                                 <p className='text-4xl '>🥇🥇🥇</p>
                             </div>
                         ) : (
-                            <form onSubmit={handleSubmit}>
-                                <div className="feedbackFormInput">
-                                    <label htmlFor='age'>How old are you? / Сколько Вам лет? </label>
-                                    <select id='age' name='age' className='p-1'>
-                                        <option value='<18'>Less 18</option>
-                                        <option value='18-24'>18-24</option>
-                                        <option value='25-34'>25-34</option>
-                                        <option value='35-44'>35-44</option>
-                                        <option value='45-54'>45-54</option>
-                                        <option value='55-64'>55-64</option>
-                                        <option value='65+'>65+</option>
-                                    </select>
-                                </div>
+                            <div>
+                                <h1 className='mb-7 font-bold'>Rate your feelings using a scale from 1 (weak) to 5 (strong) by moving the slider: / Оцените свои ощущения используя шкалу от 1 (слабо) до 5 (сильно) передвигая ползунок:</h1>
+                                <form onSubmit={handleSubmit}>
+                                    <div className="feedbackFormInput">
+                                        <label htmlFor='age'>How old are you? / Сколько Вам лет? </label>
+                                        <select id='age' name='age' className='p-1'>
+                                            <option value='<18'>Less 18</option>
+                                            <option value='18-24'>18-24</option>
+                                            <option value='25-34'>25-34</option>
+                                            <option value='35-44'>35-44</option>
+                                            <option value='45-54'>45-54</option>
+                                            <option value='55-64'>55-64</option>
+                                            <option value='65+'>65+</option>
+                                        </select>
+                                    </div>
 
-                                <div className="feedbackFormInput">
-                                    <label htmlFor='howInteresting'>
-                                        How interesting and exciting was the quiz? / Насколько интересной и захватывающей была викторина?*
-                                    </label>
-                                    <input
-                                        type='range'
-                                        id='howInteresting'
-                                        name='howInteresting'
-                                        min='1'
-                                        max='5'
-                                        step='1'
-                                        className='h-12'
-                                        defaultValue='3'
-                                        required={true}
-                                    /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
-                                </div>
+                                    <div className="feedbackFormInput">
+                                        <label htmlFor='howInteresting'>
+                                            How interesting and exciting was the quiz? / Насколько интересной и захватывающей была викторина?*
+                                        </label>
+                                        <input
+                                            type='range'
+                                            id='howInteresting'
+                                            name='howInteresting'
+                                            min='1'
+                                            max='5'
+                                            step='1'
+                                            className='h-12'
+                                            defaultValue='3'
+                                            required={true}
+                                        /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
+                                    </div>
 
-                                <div className="feedbackFormInput">
-                                    <label htmlFor='howConfidence'>
-                                        How sure were you in your answers? / Насколько Вы были уверены в ответах? *
-                                    </label>
-                                    <input
-                                        type='range'
-                                        id='howConfidence'
-                                        name='howConfidence'
-                                        min='1'
-                                        max='5'
-                                        step='1'
-                                        className='h-12'
-                                        defaultValue='3'
-                                        required={true}
-                                    /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
-                                </div>
+                                    <div className="feedbackFormInput">
+                                        <label htmlFor='howConfidence'>
+                                            How sure were you in your answers? / Насколько Вы были уверены в ответах? *
+                                        </label>
+                                        <input
+                                            type='range'
+                                            id='howConfidence'
+                                            name='howConfidence'
+                                            min='1'
+                                            max='5'
+                                            step='1'
+                                            className='h-12'
+                                            defaultValue='3'
+                                            required={true}
+                                        /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
+                                    </div>
 
-                                <div className="feedbackFormInput">
-                                    <label htmlFor='howBored'>How bored were you during the quiz? / Насколько Вам было скучно во время викторины? *</label>
-                                    <input
-                                        type='range'
-                                        id='howBored'
-                                        name='howBored'
-                                        min='1'
-                                        max='5'
-                                        step='1'
-                                        className='h-12'
-                                        defaultValue='3'
-                                        required={true}
-                                    /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
-                                </div>
-                                <div className="feedbackFormInput">
-                                    <label htmlFor='howDepressed'>How depressing was the quiz? / Насколько удручающей была викторина? *</label>
-                                    <input
-                                        type='range'
-                                        id='howDepressed'
-                                        name='howDepressed'
-                                        min='1'
-                                        max='5'
-                                        step='1'
-                                        className='h-12'
-                                        defaultValue='3'
-                                        required={true}
-                                    /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
-                                </div>
-                                <div className='feedbackFormInput'>
-                                    <label htmlFor='howConvenient'>
-                                        How convenient did the quiz progress bar seem to you? / Насколько удобным Вам показался индикатор выполнения викторины? *
-                                    </label>
-                                    <input
-                                        type='range'
-                                        id='howConvenient'
-                                        name='howConvenient'
-                                        min='1'
-                                        max='5'
-                                        step='1'
-                                        className='h-12'
-                                        defaultValue='3'
-                                        required={true}
-                                    /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
-                                </div>
-                                <div className='feedbackFormInput'>
-                                    <label htmlFor='openFeedback'>A few words about the quiz? / Пару слов о викторине?</label>
-                                    <input type='textarea' className='p-1' id='openFeedback' placeholder='Not required / Не обязательно' name='openFeedback'/>
-                                </div>
-                                <input type='hidden' name='completedQuiz' value={completedQuiz} />
-                                <input type='hidden' name='score' value={score} />
+                                    <div className="feedbackFormInput">
+                                        <label htmlFor='howBored'>How bored were you during the quiz? / Насколько Вам было скучно во время викторины? *</label>
+                                        <input
+                                            type='range'
+                                            id='howBored'
+                                            name='howBored'
+                                            min='1'
+                                            max='5'
+                                            step='1'
+                                            className='h-12'
+                                            defaultValue='3'
+                                            required={true}
+                                        /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
+                                    </div>
+                                    <div className="feedbackFormInput">
+                                        <label htmlFor='howDepressed'>How depressing was the quiz? / Насколько удручающей была викторина? *</label>
+                                        <input
+                                            type='range'
+                                            id='howDepressed'
+                                            name='howDepressed'
+                                            min='1'
+                                            max='5'
+                                            step='1'
+                                            className='h-12'
+                                            defaultValue='3'
+                                            required={true}
+                                        /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
+                                    </div>
+                                    <div className='feedbackFormInput'>
+                                        <label htmlFor='howConvenient'>
+                                            How convenient did the quiz progress bar seem to you? / Насколько удобным Вам показался индикатор выполнения викторины? *
+                                        </label>
+                                        <input
+                                            type='range'
+                                            id='howConvenient'
+                                            name='howConvenient'
+                                            min='1'
+                                            max='5'
+                                            step='1'
+                                            className='h-12'
+                                            defaultValue='3'
+                                            required={true}
+                                        /><div className='flex flex-row justify-between text-sm'><p>1</p><p>5</p></div>
+                                    </div>
+                                    <div className='feedbackFormInput'>
+                                        <label htmlFor='openFeedback'>A few words about the quiz? / Пару слов о викторине?</label>
+                                        <input type='textarea' className='p-1' id='openFeedback' placeholder='Not required / Не обязательно' name='openFeedback'/>
+                                    </div>
+                                    <input type='hidden' name='completedQuiz' value={completedQuiz} />
+                                    <input type='hidden' name='score' value={score} />
 
-                                <button type='submit' className='bg-green-600 p-3 mt-4 rounded-md disabled:bg-gray-400' disabled={!isEnabled}>Submit / Завершить</button>
-                            </form>
+                                    <button type='submit' className='bg-green-600 p-3 mt-4 rounded-md disabled:bg-gray-400' disabled={!isEnabled}>Submit / Завершить</button>
+                                </form>
+                            </div>
+
                         )}
                     </div>
                 </div>

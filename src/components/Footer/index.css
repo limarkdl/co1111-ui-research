@@ -1,5 +1,5 @@
 .footer {
-    @apply flex justify-center items-center bg-darkBlue p-3;
+    @apply flex justify-center items-center bg-darkBlue p-2;
 }
 
 .footer-text {
@@ -7,5 +7,5 @@
 }
 
 .footer-logo {
-    @apply w-4 h-4 ml-2;
+    @apply w-3 h-3 ml-2;
 }
