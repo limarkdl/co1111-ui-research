@@ -107,7 +107,7 @@ export const myQuiz2: Quiz = {
     {
     id: 4,
     questionText: `What element has the chemical symbol "Hg"? / Какой элемент имеет химический символ "Hg"?`,
-    options: ["Hydrogen / Водород", "Helium / Гелий", "Mercury / Меркурий", "Gallium / Галлий"],
+    options: ["Hydrogen / Водород", "Helium / Гелий", "Mercury / Ртуть", "Gallium / Галлий"],
     correctAnswer: 3
     },
     {
