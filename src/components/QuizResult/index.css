@@ -1,0 +1,4 @@
+.bt_animated {
+    @apply bg-red-500 animate-pulse; 
+}
+
