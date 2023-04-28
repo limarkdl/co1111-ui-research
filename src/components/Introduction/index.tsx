@@ -10,8 +10,8 @@ const Introduction: React.FC = () => {
             <div className="container font-bold">
                 What is it? / Что это?
             </div>
-            <div className="container"><span className="text-red-500 font-bold">EN: </span>This is my little research project discussing prevalence quiz,
-                get the results and at the end answer a couple of questions about the interface. This will take about 3-4 minutes.
+            <div className="container"><span className="text-red-500 font-bold">EN: </span>This is my little research project, which is to take a little quiz, get the results, and at the end answer a couple of questions about the interface.
+                This will take approximately 3-4 minutes.
                 Thanks in advance for your participation!</div>
             <div className="container"><span className="text-red-500 font-bold">RU: </span>Это мой маленький исследовательский проект, предлагающий пройти небольшую викторину,
             получить результаты и в конце ответить на пару вопросов об интерфейсе. Это займет примерно 3-4 минуты.
