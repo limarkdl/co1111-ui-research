@@ -1,0 +1,11 @@
+.mainContentWrapper {
+    @apply flex-1 max-w-5xl mx-auto;
+}
+
+.questionnaireWrapper {
+    @apply flex flex-col bg-babyBlue rounded-md min-h-[250px] p-5;
+}
+
+.feedbackFormInput {
+    @apply flex flex-col mb-5;
+}

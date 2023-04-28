@@ -7,7 +7,7 @@ import './index.css';
 const Footer = () => {
     return (
         <div> 
-            <Palette/>
+            {/*<Palette/>*/}
         <footer className="footer">
            
            <p className="footer-text">Powered by:</p>
