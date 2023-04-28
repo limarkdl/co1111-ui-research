@@ -148,7 +148,7 @@ export const myQuiz2: Quiz = {
     },
     {
     id: 11,
-    questionText: "How tall is the Eiffel Tower? / Какая высота у Эйфеловой башни?",
+    questionText: "How tall is the Eiffel Tower? / Какая высота у Эйфелевой башни?",
     options: ["301m", "324m", "342m", "280m"],
     correctAnswer: 2
     },
