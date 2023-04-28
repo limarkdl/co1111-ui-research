@@ -130,7 +130,7 @@ export const myQuiz2: Quiz = {
     },
     {
     id: 8,
-    questionText: "What measurement is used to measure electric current? / Какая единица измерения используется для измерения силы электрического тока?",
+    questionText: "What measurement is used to measure electric current strength? / Какая единица измерения используется для измерения силы электрического тока?",
     options: ["Volt / Вольт", "Watt / Ватт", "Ampere / Ампер", "Ohm / Ом"],
     correctAnswer: 3
     },
