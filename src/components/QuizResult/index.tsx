@@ -17,8 +17,13 @@ const QuizResult: React.FC<FinalResult> = ({total, correct}) => {
             <h1 className='text-4xl font-bold pb-4'>🏆</h1>
             <h2 className='text-center text-4xl'>{score}/100</h2>
             <br />
-            <Link to='/questionnaire' className='bg-blue p-3 rounded-md text-sm'>
-                Continue / Далее
+            <p className='mb-5 font-bold'>NOW PLEASE COMLPETE FEEDBACK QUESTIONNAIRE! / А ТЕПЕРЬ, ПОЖАЛУЙСТА, ОСТАВЬТЕ ОТЗЫВ</p>
+            <Link to='/questionnaire' className='bg-red-500 p-3 font-bold rounded-md text-sm'>
+
+                RATE THE QUIZ / ОСТАВИТЬ ОТЗЫВ
+
+
+
             </Link>
         </div>
     );
