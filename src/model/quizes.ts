@@ -130,7 +130,7 @@ export const myQuiz2: Quiz = {
     },
     {
     id: 8,
-    questionText: "What measurement is used to measure electric current? / Какая единица измерения используется для измерения электрического тока?",
+    questionText: "What measurement is used to measure electric current strength? / Какая единица измерения используется для измерения силы электрического тока?",
     options: ["Volt / Вольт", "Watt / Ватт", "Ampere / Ампер", "Ohm / Ом"],
     correctAnswer: 3
     },
@@ -148,8 +148,8 @@ export const myQuiz2: Quiz = {
     },
     {
     id: 11,
-    questionText: "How tall is the Eiffel Tower? / Какая высота у Эйфеловой башни?",
-    options: ["301m", "324m", "342m", "280m"],
+    questionText: "How tall is the Eiffel Tower (including antenna)? / Какая высота у Эйфелевой башни с антенной?",
+    options: ["301m", "330m", "342m", "280m"],
     correctAnswer: 2
     },
     {
