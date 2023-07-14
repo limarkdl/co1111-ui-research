@@ -15,7 +15,12 @@ UCLAN Project. This is an assignent for CO1111 (Computing Challenge, 2022-2023),
   ![Google Sheets Badge](https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=fff&style=for-the-badge)
 
 ## Idea
-This is the final task for the 2nd year, in which you need to create a product and use A / B testing to confirm or disprove the hypothesis about the organization of UI / UX. In my case, I chose the hypothesis that a progress bar that starts at a non-zero value gives confidence to the user and reassures him, showing as if the end is near and he is doing well. For my research, I created a quiz where the progress bar is used very often. I made two different 'Quiz' elements, the options of which are selected with ~50% probability, thanks to which I received feedback both for the progress of the bar from a non-zero value and from zero
+This is the final task for the 2nd year, in which you need to create a product and use A/B testing to confirm or disprove the hypothesis about the organization of UI/UX. In my case, I chose the hypothesis that a progress bar that starts at a non-zero value gives confidence to the user and reassures him, as if the end is near and he is doing well. For my research, I created a quiz where the progress bar is used very often. I made two different 'Quiz' elements, the options of which are selected with 50% probability, thanks to which I received feedback both for the progress of the bar from a non-zero value and from zero.
+
+P.S. Since I'm an international student, I've decided to make this research for EN/RU users. This allowed me to extend my testing group.
+
+P.P.S. At the time of creation, I had no experience with i18next, so to speed up the development process, I've decided not to use this library this time. 
+
 
 ## Appearance
 ### Main
@@ -55,7 +60,7 @@ This is the final task for the 2nd year, in which you need to create a product a
 </details>
 
 ## Analysis
-### Screenshot of Google Sheet with received data
+### Screenshot of Google Sheet with received data:
 ![2023-07-14_03-41-06](https://github.com/limarkdl/ui-research/assets/116545670/7cd186c2-a573-4ae5-ab2d-d519b6954d6e)
 
 ### The pairplot visualizes pairwise relationships in the dataset:
