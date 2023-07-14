@@ -3,13 +3,16 @@ UCLAN Project. This is an assignent for CO1111 (Computing Challenge, 2022-2023),
 
 ## Stack
 
-  
+  ### Frontend
   ![Vercel Badge](https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=fff&style=for-the-badge)
   ![Vite Badge](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
    ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
   ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white) 
   ![TailWind CSS](https://img.shields.io/badge/-TailWind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) 
 
+  ### Backend
+  ![Google Apps Script Badge](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?logo=googleappsscript&logoColor=fff&style=for-the-badge)
+  ![Google Sheets Badge](https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=fff&style=for-the-badge)
 
 ## Idea
 This is the final task for the 2nd year, in which you need to create a product and use A / B testing to confirm or disprove the hypothesis about the organization of UI / UX. In my case, I chose the hypothesis that a progress bar that starts at a non-zero value gives confidence to the user and reassures him, showing as if the end is near and he is doing well. For my research, I created a quiz where the progress bar is used very often. I made two different 'Quiz' elements, the options of which are selected with ~50% probability, thanks to which I received feedback both for the progress of the bar from a non-zero value and from zero
