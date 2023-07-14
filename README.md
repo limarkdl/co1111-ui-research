@@ -75,7 +75,7 @@ This is the final task for the 2nd year, in which you need to create a product a
 
 ##  Conclusion
 
-### Participants found the progress bar that starts from zero more interesting (higher Interest Feelings) and convenient (higher Convenience of Progress Bar rating).
+1. Participants found the progress bar that starts from zero more interesting (higher Interest Feelings) and convenient (higher Convenience of Progress Bar rating).
 
 
-### Participants scored higher in the quiz when the progress bar did not start from zero.
+2. Participants scored higher in the quiz when the progress bar did not start from zero.
