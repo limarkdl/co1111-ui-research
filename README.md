@@ -1,7 +1,7 @@
 # UI RESEARCH
 UCLAN Project. This is an assignent for CO1111 (Computing Challenge, 2022-2023), a research project to understand meaning of non-zero progress bar.
 
-## Core
+## Stack
 
   
   ![Vercel Badge](https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=fff&style=for-the-badge)
